@@ -15,7 +15,7 @@
     --fw-sb: 600;
     --fw-rg: 400;
 
- 
+
     
     --ft-regular: "Inter", "sans-sarif";
 
@@ -28,6 +28,18 @@
     --clr-green: #007549;
     --clr-yellow: #F9C273;
 }
+
+@media (max-width: 52em){
+
+    :root {
+
+        --fs-xl: 55px;
+        --fs-md: 16px;
+        --fs-sm: 12px;
+    }
+}
+
+
 
 body {
     background-color: var(--clr-green);
@@ -95,4 +107,14 @@ h2 {
 }
 
 
+@media (max-width: 87.5em){
+    .colors {
+        grid-template-columns: 40% 40%;
+    }
+}
 
+@media (max-width: 64em){
+    .colors {
+        grid-template-columns: 1fr;
+    }
+}
